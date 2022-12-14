@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin-left: 0;
+    padding: 20px;
+}
+
+li{      /*lista */
+    list-style: none;   /*remover os pontos*/
+}
+
+.nome{           /*descrição ret e produçao*/
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    font-size: 100px;
+    font-style: oblique;    /* deixar o texto inclinada*/
+     
+    
+    
+}
+
+.descricao{           /*descriçao de texto*/
+   
+    color: rgba(255, 255, 255, 0.588);
+    font-size: 30px;
+    margin-top: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botao{     /*configuraçes do botao*/
+    color: rgb(255, 255, 255);  
+    font-size: 40px;                 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:  #000000;
+    padding: 10px 12px;
+    text-align: center;        
+    text-decoration: none;
+    display: inline-block;   /*deixar em blocos grandes um do lado do outro*/
+    border: 5px solid;          /*borda do botao*/
+    border-radius: 30px;        /*deixar a borda arredondada*/ 
+    margin-top: 50px;                 /* espaçamento pra cima*/
+    box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.549);  /* deixar sombra no botao*/
+    
+    
+}
+
+a{       
+    text-decoration:none;  /*remover linha do link*/
+    color: rgb(255, 255, 255);   /*cor da letra do link*/
+   
+}
+
+.logo{    /*mexe na imagem do canto esquerdo*/
+  
+    width: 7rem;
+    height: 7rem;
+}
+
+.moto{
+    width: 100%;
+    margin-left: 2rem; /* mexe na foto */
+
+}
+
+.corpo{  
+    display: flex;
+    flex-direction: row;  
+    width: 100%;
+}
+ .insta {         /* arrumar imagem do instagram*/
+    width: 22px;
+    height: 22px;
+    flex-direction: row;     /*deixar em colunas uma do lado da outra*/
+    margin-right: 19px;    /*espaçamento pra esquerda*/
+ }
+.botao:hover {          
+    transform: scale(1.1);    /*botao sai pra fora*/
+}
+ .face{              /* arrumar icone do facebook*/
+    width: 22px;
+    height: 22px;
+    margin-right: 19px;
+  
+ }
+ 
+ .tik{              /* arrumar icone tik tok */
+    width: 30px;
+    height: 25px;
+
+ }
+
+ .logos{
+    flex-direction: row;
+    display: inline;
+    padding-left: 100px;
+   
+    
+ }
+
